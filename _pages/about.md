@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 
 **Research interests.** Representation Learning, Generative Models, Unsupervised Learning, Energy Based Models, Variational Approximation, Computer Vision, Natural Language Processing.
 
-**Research themes.** The governing theme of my research is to *advance and establish energy-based models:*
+**Research themes.** The governing theme of our research is to *advance and establish energy-based models:*
 
 (1) Latent space modelling and sampling.
 * Latent EBM for semi-supervised classification (To appear).
