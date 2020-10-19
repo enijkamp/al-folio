@@ -41,7 +41,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: enijkamp # your GitHub user name
 twitter_username: erik_nijkamp # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: enijkamp # your LinkedIn user name
 scholar_userid: 8osGCyAAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -53,7 +53,7 @@ blogger_url: # your blogger URL
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-180825462-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
