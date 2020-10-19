@@ -36,7 +36,7 @@
 On one hand, we show that it is easy to train an energy-based model which can sample realistic images with short-run Langevin. ML can be effective and stable even when MCMC samples have much higher energy than true steady-state samples throughout training. Based on this insight, we introduce an ML method with purely noise-initialized MCMC, high-quality short-run synthesis, and the same budget as ML with informative MCMC initialization such as CD or PCD. Unlike previous models, our energy model can obtain realistic high-diversity samples from a noise signal after training.
 On the other hand, ConvNet potentials learned with non-convergent MCMC do not have a valid steady-state and cannot be considered approximate unnormalized densities of the training data because long-run MCMC samples differ greatly from observed images. We show that it is much harder to train a ConvNet potential to learn a steady-state over realistic images. To our knowledge, long-run MCMC samples of all previous models lose the realism of short-run samples. With correct tuning of Langevin noise, we train the first ConvNet potentials for which long-run and steady-state MCMC samples are realistic images.},
   pdf={https://arxiv.org/pdf/1903.12370.pdf},
-  project={https://enijkamp.github.io/project_anatomy/},
+  website={https://enijkamp.github.io/project_anatomy/},
   code={https://github.com/point0bar1/ebm-anatomy},
   poster={https://github.com/enijkamp/project_anatomy/blob/master/ebm-anatomy-poster.pdf},
   selected = true
@@ -63,6 +63,7 @@ On the other hand, ConvNet potentials learned with non-convergent MCMC do not ha
   abbr={CVPR},
   abstract={This paper studies a training method to jointly estimate an energy-based model and a flow-based model, in which the two models are iteratively updated based on a shared adversarial value function. This joint training method has the following traits. (1) The update of the energy-based model is based on noise contrastive estimation, with the flow model serving as a strong noise distribution. (2) The update of the flow model approximately minimizes the Jensen-Shannon divergence between the flow model and the data distribution. (3) Unlike generative adversarial networks (GAN) which estimates an implicit probability distribution defined by a generator model, our method estimates two explicit probabilistic distributions on the data. Using the proposed method we demonstrate a significant improvement on the synthesis quality of the flow model, and show the effectiveness of unsupervised feature learning by the learned energy-based model. Furthermore, the proposed training method can be easily adapted to semi-supervised learning. We achieve competitive results to the state-of-the-art semi-supervised learning methods.},
   pdf={https://arxiv.org/pdf/1912.00589.pdf},
+  website=[http://www.stat.ucla.edu/~ruiqigao/fce/main.html},
   award={Oral},
   selected = true
 }
@@ -76,7 +77,7 @@ On the other hand, ConvNet potentials learned with non-convergent MCMC do not ha
   abbr={CVPR},
   abstract={This paper proposes a joint training method to learn both the variational auto-encoder (VAE) and the latent energy-based model (EBM). The joint training of VAE and latent EBM are based on an objective function that consists of three Kullback-Leibler divergences between three joint distributions on the latent vector and the image, and the objective function is of an elegant symmetric and anti-symmetric form of divergence triangle that seamlessly integrates variational and adversarial learning. In this joint training scheme, the latent EBM serves as a critic of the generator model, while the generator model and the inference model in VAE serve as the approximate synthesis sampler and inference sampler of the latent EBM. Our experiments show that the joint training greatly improves the synthesis quality of the VAE. It also enables learning of an energy function that is capable of detecting out of sample examples for anomaly detection.},
   pdf={https://arxiv.org/pdf/1812.10907.pdf},
-  project={https://hthth0801.github.io/jointLearning/},
+  website={https://hthth0801.github.io/jointLearning/},
   code={https://github.com/alexzhou907/vae_ebm},
   selected = true
 }
@@ -90,7 +91,7 @@ On the other hand, ConvNet potentials learned with non-convergent MCMC do not ha
   abbr={CVPR},
   abstract={This paper proposes the divergence triangle as a framework for joint training of generator model, energy-based model and inference model. The divergence triangle is a compact and symmetric (anti-symmetric) objective function that seamlessly integrates variational learning, adversarial learning, wake-sleep algorithm, and contrastive divergence in a unified probabilistic formulation. This unification makes the processes of sampling, inference, energy evaluation readily available without the need for costly Markov chain Monte Carlo methods. Our experiments demonstrate that the divergence triangle is capable of learning (1) an energy-based model with well-formed energy landscape, (2) direct sampling in the form of a generator network, and (3) feed-forward inference that faithfully reconstructs observed as well as synthesized data. The divergence triangle is a robust training method that can learn from incomplete data.},
   pdf={https://arxiv.org/pdf/1812.10907.pdf},
-  project={https://enijkamp.github.io/project_triangle/},
+  website={https://enijkamp.github.io/project_triangle/},
   code={http://github.com/enijkamp/triangle},
   poster={https://raw.githubusercontent.com/enijkamp/project_triangle/master/cvpr2019_tianhan.pdf},
   award={Oral},
@@ -106,7 +107,7 @@ On the other hand, ConvNet potentials learned with non-convergent MCMC do not ha
   abbr={NeurIPS},
   abstract={This paper studies a curious phenomenon in learning energy-based model (EBM) using MCMC. In each learning iteration, we generate synthesized examples by running a non-convergent, non-mixing, and non-persistent short-run MCMC toward the current model, always starting from the same initial distribution such as uniform noise distribution, and always running a fixed number of MCMC steps. After generating synthesized examples, we then update the model parameters according to the maximum likelihood learning gradient, as if the synthesized examples are fair samples from the current model. We treat this non-convergent short-run MCMC as a learned generator model or a flow model. We provide arguments for treating the learned non-convergent short-run MCMC as a valid model. We show that the learned short-run MCMC is capable of generating realistic images. More interestingly, unlike traditional EBM or MCMC, the learned short-run MCMC is capable of reconstructing observed images and interpolating between images, like generator or flow models. The code can be found in the Appendix.},
   pdf={https://arxiv.org/pdf/1904.09770},
-  project={https://hthth0801.github.io/jointLearning/},
+  website={https://hthth0801.github.io/jointLearning/},
   poster={},
   code={https://github.com/alexzhou907/vae_ebm},
   selected = true
