@@ -30,9 +30,9 @@ social: false  # includes social icons at the bottom of the page
 * Anatomy of MCMC-based learning [(AAAI 2020, Nijkamp et al.)](https://arxiv.org/pdf/1903.12370.pdf){:target="\_blank"}.
 * Mapping of learned energy potentials [(QAM 2020, Hill & Nijkamp et al.)](https://arxiv.org/pdf/1803.01043.pdf){:target="\_blank"}.
 
-(3) Joint training without resorting to MCMC.
-* Joint learning with Flow-based models. [(CVPR 2020, Gao & Nijkamp et al.)](https://arxiv.org/pdf/1912.00589.pdf){:target="\_blank"}.
-* Joint learning with VAE-based models. [(CVPR 2019, Han & Nijkamp et al.)](https://arxiv.org/pdf/1812.10907.pdf){:target="\_blank"}, [(CVPR 2020, Han & Nijkamp et al.)](https://arxiv.org/pdf/1812.10907.pdf){:target="\_blank"}.
+(3) Joint training of EBMs without resorting to MCMC.
+* Learning with Flow-based models. [(CVPR 2020, Gao & Nijkamp et al.)](https://arxiv.org/pdf/1912.00589.pdf){:target="\_blank"}.
+* Learning with VAE-based models. [(CVPR 2019, Han & Nijkamp et al.)](https://arxiv.org/pdf/1812.10907.pdf){:target="\_blank"}, [(CVPR 2020, Han & Nijkamp et al.)](https://arxiv.org/pdf/1812.10907.pdf){:target="\_blank"}.
 
 **Selected publications.**
 <div class="publications">
