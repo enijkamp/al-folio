@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 **Research themes.** The governing theme of my research is to *advance and establish energy-based models:*
 
-(1) EBMs in latent space.
+(1) Latent space modelling and sampling.
 * Latent EBM for semi-supervised classification (To appear).
 * Latent EBM as exponential tilted priors [(Pang & Nijkamp et al., NeurIPS 2021)](https://arxiv.org/pdf/2006.08205.pdf){:target="\_blank"}.
 
