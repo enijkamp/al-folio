@@ -6,8 +6,14 @@
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+      {% if entry.award %}
+      <span class="award badge">{{entry.award}}</span>
+      {% endif %}
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
+      {% if entry.award %}
+      <span class="award badge">{{entry.award}}</span>
+      {% endif %}
     {% endif %}
   {% endif %}
   </div>

@@ -6,19 +6,35 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: me.jpg
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**About.** I'm a Ph.D. candidate in the [Center for Vision, Cognition, Learning and Autonomy](https://vcla.stat.ucla.edu/){:target="\_blank"} (VCLA) at [UCLA](http://ucla.edu){:target="\_blank"}, advised by Prof. Song-Chun Zhu and Prof. Ying Nian Wu. I've also spent time at [IBM Research](https://www.research.ibm.com/labs/almaden/){:target="\_blank"}, [Google Research](https://research.google/){:target="\_blank"}, and [Salesforce Einstein Research](https://einstein.ai/){:target="\_blank"}. My research is generously supported by the UCLA DYF Fellowship, [XSEDE](https://www.xsede.org/){:target="\_blank"} extreme science and engineering grant, and the [NVIDIA GPU grant](https://developer.nvidia.com/academic_gpu_seeding){:target="\_blank"}.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Research interests.** Representation Learning, Generative Models, Unsupervised Learning, Energy Based Models, Variational Approximation, Computer Vision, Natural Language Processing.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research themes.** The governing theme of my research is to *advance and establish energy-based models:*
+
+(1) EBMs in latent space.
+* Latent EBM for semi-supervised classification (To appear).
+* Latent EBM as exponential tilted priors (Pang & Nijkamp et al., NeurIPS 2021).
+
+(2) Variations of MCMC-based learning.
+* Mixing MCMC. (Preprint 2021, Nijkamp et al.).
+* Short-run MCMC for sampling (NeurIPS 2019, Nijkamp et al.) and inference (ECCV 2020, Nijkamp et al.).
+* Anatomy MCMC-based learning (AAAI 2020, Nijkamp et al.)
+* Mapping of learned EBMs (QAM 2020, Hill & Nijkamp et al.).
+
+(3) Joint training without resorting to MCMC.
+* Learning with Flow-based models. (CVPR 2020, Gao & Nijkamp et al.)
+* Learning with VAE-based models. (CVPR 2019, Han & Nijkamp et al.) (CVPR 2020, Han & Nijkamp et al.)
+
+**Selected publications.**
+<div class="publications">
+{% bibliography -f papers -q @*[selected=true]* %}
+</div>
