@@ -25,7 +25,7 @@ social: false  # includes social icons at the bottom of the page
 * Latent EBM as exponential tilted priors [(Pang & Nijkamp et al., NeurIPS 2020)](https://arxiv.org/pdf/2006.08205.pdf){:target="\_blank"}.
 
 (2) Variations of MCMC-based learning.
-* Mixing MCMC. [(Preprint 2020, Nijkamp et al.)](https://arxiv.org/pdf/2006.06897.pdf){:target="\_blank"}.
+* Mixing MCMC [(Preprint 2020, Nijkamp et al.)](https://arxiv.org/pdf/2006.06897.pdf){:target="\_blank"}.
 * Short-run MCMC for sampling [(NeurIPS 2019, Nijkamp et al.)](https://arxiv.org/pdf/1904.09770.pdf){:target="\_blank"} and inference [(ECCV 2020, Nijkamp et al.)](https://arxiv.org/pdf/1912.01909.pdf){:target="\_blank"}.
 * Anatomy of MCMC-based learning [(AAAI 2020, Nijkamp et al.)](https://arxiv.org/pdf/1903.12370.pdf){:target="\_blank"}.
 * Mapping of learned energy potentials [(QAM 2020, Hill & Nijkamp et al.)](https://arxiv.org/pdf/1803.01043.pdf){:target="\_blank"}.
