@@ -21,8 +21,8 @@ social: false  # includes social icons at the bottom of the page
 **Research themes.** The governing theme of our research is to *advance and establish energy-based models:*
 
 (1) Latent space modelling and sampling.
-* Latent EBM for semi-supervised classification (To appear).
-* Latent EBM as exponential tilted priors [(Pang & Nijkamp et al., NeurIPS 2020)](https://arxiv.org/pdf/2006.08205.pdf){:target="\_blank"}.
+* Latent EBM for semi-supervised classification (Pang % Nijkamp, Preprint)(https://arxiv.org/pdf/2010.09359.pdf){:target="\_blank"}.
+* Latent EBM as exponential tilted priors [(Pang & Nijkamp et al., NeurIPS 2020)]
 
 (2) Variations of MCMC-based learning.
 * Mixing MCMC [(Preprint 2020, Nijkamp et al.)](https://arxiv.org/pdf/2006.06897.pdf){:target="\_blank"}.
