@@ -18,21 +18,21 @@ social: false  # includes social icons at the bottom of the page
 
 **Research interests.** Representation Learning, Generative Models, Unsupervised Learning, Energy Based Models, Variational Approximation, Computer Vision, Natural Language Processing.
 
-**Research themes.** The governing theme of my research is to *advance and establish energy-based models:*
+**Research themes.** The governing theme of our research is to *advance and establish energy-based models:*
 
-(1) EBMs in latent space.
-* Latent EBM for semi-supervised classification (To appear).
-* Latent EBM as exponential tilted priors (Pang & Nijkamp et al., NeurIPS 2021).
+(1) Latent space modelling and sampling.
+* Latent EBM for semi-supervised classification [(Pang & Nijkamp, ICBINB@NeurIPS 2020)](https://arxiv.org/pdf/2010.09359.pdf){:target="\_blank"}.
+* Latent EBM as exponential tilted priors [(Pang & Nijkamp et al., NeurIPS 2020)](https://arxiv.org/pdf/2006.08205.pdf){:target="\_blank"}.
 
 (2) Variations of MCMC-based learning.
-* Mixing MCMC. (Preprint 2021, Nijkamp et al.).
-* Short-run MCMC for sampling (NeurIPS 2019, Nijkamp et al.) and inference (ECCV 2020, Nijkamp et al.).
-* Anatomy MCMC-based learning (AAAI 2020, Nijkamp et al.)
-* Mapping of learned EBMs (QAM 2020, Hill & Nijkamp et al.).
+* Mixing MCMC [(Preprint 2020, Nijkamp et al.)](https://arxiv.org/pdf/2006.06897.pdf){:target="\_blank"}.
+* Short-run MCMC for sampling [(NeurIPS 2019, Nijkamp et al.)](https://arxiv.org/pdf/1904.09770.pdf){:target="\_blank"} and inference [(ECCV 2020, Nijkamp et al.)](https://arxiv.org/pdf/1912.01909.pdf){:target="\_blank"}.
+* Anatomy of MCMC-based learning [(AAAI 2020, Nijkamp et al.)](https://arxiv.org/pdf/1903.12370.pdf){:target="\_blank"}.
+* Mapping of learned energy potentials [(QAM 2020, Hill & Nijkamp et al.)](https://arxiv.org/pdf/1803.01043.pdf){:target="\_blank"}.
 
-(3) Joint training without resorting to MCMC.
-* Learning with Flow-based models. (CVPR 2020, Gao & Nijkamp et al.)
-* Learning with VAE-based models. (CVPR 2019, Han & Nijkamp et al.) (CVPR 2020, Han & Nijkamp et al.)
+(3) Joint training of EBMs without resorting to MCMC.
+* Learning with Flow-based models [(CVPR 2020, Gao & Nijkamp et al.)](https://arxiv.org/pdf/1912.00589.pdf){:target="\_blank"}.
+* Learning with VAE-based models [(CVPR 2019, Han & Nijkamp et al.)](https://arxiv.org/pdf/1812.10907.pdf){:target="\_blank"}, [(CVPR 2020, Han & Nijkamp et al.)](https://arxiv.org/pdf/1812.10907.pdf){:target="\_blank"}.
 
 **Selected publications.**
 <div class="publications">
